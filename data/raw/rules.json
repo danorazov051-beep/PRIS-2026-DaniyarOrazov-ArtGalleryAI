@@ -1,0 +1,17 @@
+{
+  "scenario_name": "Подходящее произведение искусства",
+
+  "thresholds": {
+    "min_price": 1000,
+    "max_price": 10000
+  },
+
+  "lists": {
+    "allowed_tags": ["abstract", "classic", "modern"],
+    "forbidden_tags": ["fake", "stolen"]
+  },
+
+  "critical_rules": {
+    "must_be_authentic": true
+  }
+}
